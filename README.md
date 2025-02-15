@@ -42,10 +42,6 @@ This extends the basic UDP transfer by introducing **error detection and reliabi
   - The receiver handles duplicate packets if an ACK is lost.
 - Communication reliability is **tested using NetDerper**.
 
-#### **Bonus Discussion:**
-- Analyzes the **performance impact** of Stop-and-Wait under high latency.
-- Provides a **mathematical model** of its effect on throughput.
-- Validates findings using **NetDerper**.
 
 ---
 
