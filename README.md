@@ -1,5 +1,3 @@
-# networkProgramming
-
 # Network Programming: UDP File Transfer with ARQ Protocols
 
 ## Overview
@@ -74,7 +72,3 @@ The final enhancement replaces Stop-and-Wait with the **Selective Repeat ARQ** p
 4. Use NetDerper to test fault tolerance and reliability.
 
 ---
-
-## Conclusion
-This repository demonstrates fundamental ARQ protocols for reliable file transfer over UDP. The **Stop-and-Wait ARQ** ensures basic reliability, while **Selective Repeat ARQ** improves performance by optimizing retransmissions. Both implementations provide insights into network reliability and error handling.
-
