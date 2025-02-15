@@ -62,8 +62,8 @@ The final enhancement replaces Stop-and-Wait with the **Selective Repeat ARQ** p
 - **NetDerper** – To simulate network errors and evaluate protocol robustness.
 
 ## How to Run
-1. Compile and run the sender application, specifying the destination IP and port.
-2. Start the receiver application on the target machine.
+1. Start the receiver application on the target machine.
+2. Run the sender application, specifying the destination IP and port.
 3. Monitor the packet flow using Wireshark.
 4. Use NetDerper to test fault tolerance and reliability.
 
